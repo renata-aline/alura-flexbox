@@ -25,10 +25,24 @@ body {
 /* CABEÇALHO */
 
 .cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
     background-color: white;
     height: 80px;
     width: 100%;
     padding: 0 25px;
+}
+.cabecalho__pesquisar__item {
+    display: none;
+}
+
+@media screen and (min-width: 834px) {
+    .cabecalho__pesquisar__item {
+        display: block;
+    }
 }
 
 .logo__item {
