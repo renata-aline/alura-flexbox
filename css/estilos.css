@@ -377,6 +377,33 @@ body {
     border-bottom: 1.5px solid var(--azul-medio);
     padding: 20px 17px 20px 15px;
     height: auto;
+    gap: 15px;
+  }
+
+  .menu__lista:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+
+  .menu__itens {
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .jogos {
+    order: 3;
+  }
+
+  .filmes {
+    order: 2;
+  }
+
+  .premium {
+    order: 1;
+  }
+
+  .maispagina {
+    order: 4;
   }
 
   /* ESTILOS VIDEOS */
